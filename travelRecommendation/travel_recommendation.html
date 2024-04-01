@@ -17,24 +17,13 @@
             <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>
             <li><input type="text" id="cityInput" placeholder="Enter a destination or keyword"> </li>
             <li><button id='btnSearch'>Search</button></li>
-            <li><button id='btnClear'>Clear</button></li>
+            <li><button id='btnClear' onclick="clearResults()">Clear</button></li>
             <script src="./travel_recommendation.js"></script>
         </ul>
     </nav>
     <div class="container">
-        <div class="containerResults">
-            <div class="infoResult">
-                <img src="angkor-wat.jpg" alt="Descripción de la imagen">
-                <h2>Angkor Wat, Cambodia</h2>
-                <p>A UNESCO World Heritage site and the largest religious monument in the world</p>
-                <button>Visit</button>
-            </div>
-            <div class="infoResult">
-                <img src="angkor-wat.jpg" alt="Descripción de la imagen">
-                <h2>Angkor Wat, Cambodia</h2>
-                <p>A UNESCO World Heritage site and the largest religious monument in the world</p>
-                <button>Visit</button>
-            </div>
+        <div class="containerResults" id="containerResults">
+            
         </div>
         <h1 class="titulo">Explore the World</h1>
         <p class="info">TravelWorld: Explore the world with our comprehensive travel platform. our site offers
